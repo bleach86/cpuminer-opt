@@ -130,6 +130,9 @@ cpuminer_SOURCES = \
   algo/lyra2/allium-gate.c \
   algo/lyra2/allium-4way.c \
   algo/lyra2/allium.c \
+  algo/lyra2/alliumV2-gate.c \
+  algo/lyra2/alliumV2-4way.c \
+  algo/lyra2/alliumV2.c \
   algo/m7m.c \
   algo/neoscrypt/neoscrypt.c \
   algo/nist5/nist5-gate.c \
