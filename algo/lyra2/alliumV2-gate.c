@@ -1,6 +1,6 @@
 #include "alliumV2-gate.h"
 
-int64_t get_max64_0xFFFLLL() { return 0xFFFLLL; }
+int64_t get_max64_0xFFFFFL() { return 0xFFFFFL; }
 
 bool register_alliumV2_algo( algo_gate_t* gate )
 {
@@ -15,6 +15,6 @@ bool register_alliumV2_algo( algo_gate_t* gate )
 #endif
   gate->optimizations = SSE2_OPT | AES_OPT | SSE42_OPT | AVX2_OPT;
   gate->set_target        = (void*)&alt_set_target;
-  gate->get_max64         = (void*)&get_max64_0xFFFLLL;
+  gate->get_max64         = (void*)&get_max64_0xFFFFFL;
   return true;
 };
